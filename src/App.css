@@ -1,38 +1,108 @@
-.App {
+.App{
+  max-width: 1800px;
+  margin: auto;
+}
+/* NAVBAR */
+.navbar-nav{
+  border-radius: 25px;
+  border: 2px solid #343534;
+  margin-right: 20px;
+  box-shadow: 0px -2px #38a84b85, -2px 0px #FF7BAC;
+}
+.navSocials{
+  border-radius: 25px;
+  border: 2px solid #343534;
+  padding: 8px 20px;
+  margin-right: 20px;
+  box-shadow: 0px -2px #38a84b85, -2px 0px #FF7BAC;
+}
+.nav-link{
+  color: #000 !important;
+}
+.navSocials a{
+  font-size: 26px;
+  color: #000;
+  line-height: 0;
+}
+
+/* HERO */
+.hero-main button{
+  font-size: 26px;
+  padding: 8px 25px;
+  max-width: 500px;
+  width: 100%;
+}
+
+/* CHECK ADDRESS */
+.frens-check-main{
   text-align: center;
+  margin-top: 50px;
+}
+.frens-check-main h2{
+  font-size: 6vw;
+  text-shadow: -2px -2px #38a84b85, 2px 0px #FF7BAC;
+}
+.frens-check-main p{
+  font-size: 28px;
+  max-width: 600px;
+  margin: auto;
+}
+.frens-check-main input[type=text]{
+  box-shadow: 0px -2px #38a84b85, -2px 0px #FF7BAC;
+  border: 2px solid #343534;
+  height: 75px;
+  width: 100%;
+  padding: 10px 25px;
+  max-width: 580px;
+  border-radius: 50px;
+  margin: 15px auto;
+}
+.frens-check-main input[type=submit]{
+  font-size: 28px;
+  background-color: transparent;
+  border: 2px solid #343534;
+  box-shadow: 0px -2px #38a84b85, -2px 0px #FF7BAC;
+  border-radius: 50px;
+  padding: 10px 30px;
+  font-weight: bold;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* VERIFIED SMART CONTRACT */
+.verified-main{
+  text-align: center;
+  margin-top: 100px;
+}
+.verified-main h2{
+  font-size: 4vw;
+  text-shadow: -2px -2px #38a84b85, 2px 0px #FF7BAC;
+}
+.verified-main hr:not([size]){
+  height: 5px;
+  color: #707070;
+}
+.verified-main p{
+  font-size: 28px;
+  max-width: 600px;
+  margin: 100px auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* STEPS */
+.steps-main{
+  font-size: 48px;
+  font-weight: 500;
+}
+.steps-main ol{
+  list-style-position: inside;
+}
+.steps-main ol hr{
+  height: 5px;
+  color: #707070;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* FOOTER */
+.footer-main{
+  margin-top: 50px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer-main p{
+  font-size: 28px;
 }
