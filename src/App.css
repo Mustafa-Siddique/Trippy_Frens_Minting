@@ -26,11 +26,75 @@
 }
 
 /* HERO */
-.hero-main button{
+.hero-main img{
+  width: 90%;
+}
+.hero-main .btn{
   font-size: 26px;
   padding: 8px 25px;
   max-width: 500px;
   width: 100%;
+}
+.presale{
+  border: 1px solid #343534;
+  border-radius: 35px;
+  box-shadow: -2px -2px #38a84b85, 0px 2px #FF7BAC;
+  text-align: center;
+  z-index: 5;
+  background-color: #fff;
+  padding: 25px 15px;
+}
+.presale h2{
+  font-size: 48px;
+  font-weight: 700;
+  text-shadow: -2px -2px #38a84b85, 2px 0px #FF7BAC;
+}
+.presale h4{
+  font-size: 26px;
+}
+.mintInfo{
+  border: 1px solid #343534;
+  border-radius: 25px;
+  width: 90%;
+  margin: auto;
+  padding-top: 25px;
+}
+.mintInfo h3{
+  font-size: 28px;
+  font-weight: 900;
+  margin: 15px auto;
+}
+.mintInfo .container{
+  border: 1px solid #343534;
+  border-radius: 25px;
+  width: 90%;
+  margin: auto;
+}
+.mintInfo img{
+  width: 100%;
+}
+.mintInfo #quantitySet{
+  border-top: 1px #343534 solid;
+  height: 50px;
+}
+.mintInfo #quantitySet button{
+  width: 25%;
+  border: 0;
+  background-color: transparent;
+}
+.mintInfo #price{
+  font-size: 26px;
+  font-weight: 700;
+}
+.mintInfo #quantitySet p{
+  width: 50%;
+  font-size: 18px;
+  font-weight: 700;
+  margin: auto;
+}
+.presale .btn{
+  font-size: 26px;
+  padding: 8px 25px;
 }
 
 /* CHECK ADDRESS */
@@ -93,6 +157,7 @@
 }
 .steps-main ol{
   list-style-position: inside;
+  text-shadow: -2px -2px #38a84b85, 2px 0px #FF7BAC;
 }
 .steps-main ol hr{
   height: 5px;

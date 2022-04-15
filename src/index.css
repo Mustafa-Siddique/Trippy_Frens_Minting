@@ -15,3 +15,77 @@ code {
 p{
   color: #343534;
 }
+@media only screen and (max-width: 992px) {
+  .frens-check-main h2, .verified-main h2, .verified-main h2{
+    font-size: 88px;
+  }
+}
+@media only screen and (max-width: 768px){
+  .navbar-brand img{
+    width: 20vw;
+  }
+  .hero-main{
+    margin: 50px auto;
+  }
+  .frens-check-main{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .frens-check-main h2, .verified-main h2{
+    font-size: 72px;
+  }
+  .frens-check-main p{
+    font-size: 22px;
+    margin: 50px auto;
+  }
+  .verified-main p{
+    font-size: 22px;
+    margin: 50px auto;
+  }
+  .steps-main ol{
+    font-size: 32px;
+    padding-left: 0;
+  }
+  .frens-check-main input[type=text]{
+    height: 50px;
+    border-radius: 25px;
+    width: 100%;
+  }
+  .frens-check-main input[type=submit]{
+    font-size: 26px;
+    width: 100%;
+  }
+  .footer-main{
+    width: 90%;
+    margin: 50px auto;
+  }
+  .footer-main p{
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 480px){
+  .navbar-brand img{
+    width: 125px;
+  }
+  .presale h2{
+    font-size: 36px;
+  }
+  .presale h4{
+    font-size: 20px;
+  }
+  .presale #price{
+    font-size: 20px;
+  }
+  .presale .btn{
+    width: 90%;
+    font-size: 22px;
+    padding: 5px;
+  }
+  .presale #ca{
+    font-size: 10px;
+  }
+  .frens-check-main h2, .verified-main h2{
+    font-size: 56px;
+  }
+}
