@@ -15,6 +15,12 @@ code {
 p{
   color: #343534;
 }
+@media only screen and (max-width: 1440px) {
+  .footer-main{
+    width: 95%;
+    margin: 50px auto;
+  }
+}
 @media only screen and (max-width: 992px) {
   .frens-check-main h2, .verified-main h2, .verified-main h2{
     font-size: 88px;

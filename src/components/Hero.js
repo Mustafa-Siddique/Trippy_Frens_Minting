@@ -23,7 +23,7 @@ export default function Hero() {
               <div id="quantitySet" className='d-flex'>
                 <button className='border-end' disabled={mintCount < 2 ? true : false} onClick={() => setMintCount(mintCount - 1)}><FaMinus/></button>
                 <p>{mintCount}</p>
-                <button className='border-start' onClick={() => setMintCount(mintCount + 1)}><FaPlus/></button>
+                <button className='border-start' disabled={mintCount > 2 ? true : false} onClick={() => setMintCount(mintCount + 1)}><FaPlus/></button>
               </div>
             </div>
             <h3>{mintCount}/8888</h3>
