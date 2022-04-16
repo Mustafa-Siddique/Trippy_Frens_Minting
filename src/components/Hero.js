@@ -2,6 +2,8 @@ import React, {useState} from 'react'
 import heroImg from '../assets/images/hero.png'
 import mint from '../assets/images/mint.png'
 import {FaMinus, FaPlus} from 'react-icons/fa'
+import { init } from '../web3/Web3Client'
+import Web3 from 'web3'
 
 export default function Hero() {
 
@@ -11,7 +13,7 @@ export default function Hero() {
   return (
     <div className='hero-main container-fluid d-flex flex-column align-items-center'>
         <img src={heroImg} style={connect === true ? {position:"absolute"} : {position:"relative"}} alt="" />
-        <button className="btn btn-dark rounded-pill" style={connect === false ? {display: "block"}: {display: "none"}} onClick={() => setConnect(!connect)}>CONNECT WALLET</button>
+        <button className="btn btn-dark rounded-pill" style={connect === false ? {display: "block"}: {display: "none"}} onClick={() => {setConnect(!connect); init()}}>CONNECT WALLET</button>
         <div className="presale" style={connect === true ? {display: "block"}: {display: "none"}}>
           <h2>SALE STATUS</h2>
           <h4>PRE-SALE</h4>
